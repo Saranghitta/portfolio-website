@@ -1,0 +1,22 @@
+.toolkit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.toolkit-title {
+    color: white;
+    font-size: 6.4rem;
+    text-align: center;
+}
+
+.toolkit-slider {
+    width: 70%;
+}
+
+.toolkit-slider .slick-list{
+    -webkit-mask: linear-gradient(90deg, rgba(0,0,0,0) 36%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 63%);
+            mask: linear-gradient(90deg, rgba(0,0,0,0) 36%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 63%);
+}

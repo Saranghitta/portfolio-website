@@ -1,0 +1,31 @@
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    padding: 1%;
+    background-color: #090909;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.nav-main {
+    font-size: 6.4rem;
+}
+
+nav a {
+    color: white;
+    font-size: 4rem;
+}
+
+nav ul {
+    padding: 0;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+}
+
+nav li {
+    list-style: none;
+}
