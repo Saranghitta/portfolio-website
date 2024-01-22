@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import Slider from "react-slick";
 import Reactico from "../assets/images/React_Icon.svg"
 import Jsico from "../assets/images/JS_Icon.svg"

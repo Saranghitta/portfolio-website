@@ -1,0 +1,77 @@
+.contact-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.contact-container legend {
+    font-size: 6.4rem;
+    text-align: center;
+    margin-bottom: 10%;
+    font-weight: 700;
+}
+
+.contact-container form {
+    width: 35%;
+}
+
+.contact-container label{
+    margin: 0.5% 0 2% 0;
+    font-weight: 400;
+}
+
+.contact-container fieldset {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 2.4rem;
+    border: none;
+}
+
+.contact-container input {
+    font-size: 2.4rem;
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    height: 4rem;
+    background-color: #090909;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 0.5% 1%;
+}
+
+.contact-container textarea {
+    font-size: 2rem;
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    height: 15rem;
+    background-color: #090909;
+    color: white;
+    border-radius: 8px;
+    resize: none;
+    border: 1px solid white;
+    padding: 0.5% 1%;
+}
+
+.contact-container button {
+    background-color: #090909;
+    color: white;
+    font-size: 2.4rem;
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 10px;
+    width: 15vw;
+    margin: 10% auto 0;
+    display: block;  
+    border: 1px solid white;
+}
+
+.contact-container button:hover{
+    cursor: pointer;
+}

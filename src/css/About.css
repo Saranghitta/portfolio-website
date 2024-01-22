@@ -1,0 +1,30 @@
+.about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container h2 {
+    color: white;
+    font-size: 6.4rem;
+    margin: 0 0 -3% 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.4rem;
+}
+
+.about-content img {
+    margin-left: 5%;
+}
+
+.about-info {
+    margin: 5%;
+    width: 40%;
+    line-height: 200%;
+}

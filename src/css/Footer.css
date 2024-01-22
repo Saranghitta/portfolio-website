@@ -1,0 +1,25 @@
+footer {
+    width: 100%;
+    background-color: #090909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 2.4rem;
+    margin: 2.5%;
+}
+
+.footer-link {
+    font-size: 4rem;
+}
+
+.footer-email { 
+    text-decoration: underline;
+}
