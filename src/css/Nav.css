@@ -16,6 +16,7 @@ nav {
 nav a {
     color: white;
     font-size: 4rem;
+    text-decoration: none;
 }
 
 nav ul {
@@ -28,4 +29,8 @@ nav ul {
 
 nav li {
     list-style: none;
+}
+
+nav a:hover {
+    cursor: pointer;
 }

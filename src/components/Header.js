@@ -6,7 +6,7 @@ import "../css/Header.css";
 export default function Header() {
   return (
     <header>
-        <div className="header-container">
+        <div className="header-container" id="hero">
         <img className="background-image" src={BKG} alt="Background" />
             <div className="header-content">
                 <h2 className="header-title">MANUEL FLORES</h2>

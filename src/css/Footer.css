@@ -18,8 +18,11 @@ footer {
 
 .footer-link {
     font-size: 4rem;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-email { 
     text-decoration: underline;
+    color: white;
 }

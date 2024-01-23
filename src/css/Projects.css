@@ -1,0 +1,17 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.projects-title {
+    font-size: 6.4rem;
+}
+
+.projects-content {
+    margin: 10% 0;
+    font-size: 2.4rem;
+    line-height: 50%;
+}

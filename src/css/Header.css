@@ -1,5 +1,6 @@
 header {
-    height: fit-content;
+    height: max-content;
+    margin: 0.5% 0;
 }
 
 .header-container {
@@ -12,6 +13,9 @@ header {
     width: 100vw;
     height: 100%;
     display: block;
+    animation: zoomfadein 1000ms ease-in-out forwards;
+    opacity: 0%;
+    transform: scale(-1%);
 }
 
 .header-title {
@@ -20,10 +24,15 @@ header {
     font-weight: 300;
     z-index: 2;
     margin: 0 -100% 0 75%;
+    opacity: 0%;
+    animation: fadein 2500ms 1700ms ease-in-out forwards;
 }
 
 .profile-image {
     width: 98%;
+    animation: zoomfadein 1000ms 500ms ease-in-out forwards;
+    opacity: 0%;
+    transform: scale(-1%);
 }
 
 .header-content {
@@ -59,4 +68,34 @@ header {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     transform: rotate(180deg);
+}
+
+.bottom-text {
+    line-height: 0%;
+    margin-top: 0.5%;
+}
+
+.header-content p {
+    opacity: 0%;
+    animation: fadein 2000ms 1200ms ease-in-out forwards;
+}
+
+@keyframes zoomfadein {
+    0% {
+        opacity: 0%;
+        transform: scale(-1%);
+    }
+    100% {
+        opacity: 100%;
+        transform: scale(100%);
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
 }
